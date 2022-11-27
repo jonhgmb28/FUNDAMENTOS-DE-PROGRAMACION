@@ -11,10 +11,9 @@ void ejercicio(){
         
     } while (num < 0);
     
-    int suma=0;//esta variable es para guardar el factorial, ya que como incializo la variable factorial en cada iteracion del for en 1, los datos se pierden
-    
+    int suma=0;
     for (int i = 1; i <= num; i++){
-        int fac = 1;
+        int fac = 1; //cada numero para cacular su factorial se necesita que se inicialice como 1 para 2! = 1*1*2
         printf("%d! + ", i);
         for (int j = 1; j <= i; j++){
            
