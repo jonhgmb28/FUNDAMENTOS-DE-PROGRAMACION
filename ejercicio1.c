@@ -7,7 +7,7 @@ void ejercicio(){
         printf("Ingrese un numero mayor a 0: ");
         scanf("%d", &num);
         
-    } while (num < 0);
+    } while (num <= 0);
 
     int contador = num;
 
